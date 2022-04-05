@@ -1,2 +1,2 @@
 # git_collab
-Git Learning
+Learning Git Collobration
