@@ -9,10 +9,10 @@ Learning Git Collobration
     - `git init`: creates a git repo locally
 
 - `git log`: Check git history
-   -  $ git log --oneline --graph --all\
-      \* e722522 (HEAD -> main, origin/main, origin/HEAD) Git Clone and init
-      \* 3585699 README Updated
-      \* 5ee047e Initial commit
+   -  $ git log --oneline --graph --all
+      * e722522 (HEAD -> main, origin/main, origin/HEAD) Git Clone and init
+      * 3585699 README Updated
+      * 5ee047e Initial commit
 
 - `git add`: Add file in git staging area
    - Git take the content of file and pass it to hashing algo, generate Hash value and save it in .git/objects/
@@ -34,9 +34,9 @@ Learning Git Collobration
 
 - `git commit`: Record root tree, commit message, author and committer details as below and hash it.
    - Git commits the entire tree per commit.
-   - After first commit, all the commit will be having parent commit refrence hash.\  
+   - After first commit, all the commit will be having parent commit refrence hash. 
        tree 86fddd1f568cd91058f1eea9f2637ad14b857105\
        parent 3585699de917c4ec35a227848b741b9e11f4d615\
        author Moolchand <mool.attrish@gmail.com> 1649149991 +0300\
        committer Moolchand <mool.attrish@gmail.com> 1649149991 +0300\
-       Git Clone and init \
+       Git Clone and init 
